@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+  max-width: 200px;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+body {
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* global style End */
+
+.header__contain {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__image {
+  margin-right: 198px;
+}
+
+.nav__menu {
+  max-width: 352px;
+  margin: o 198px 0 198px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #2f281e;
+}
+
+.nav__list-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-product {
+  color: #ff9900;
+}
+
+.header__button {
+  max-width: 252px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 25px;
+  margin-left: 198px;
+}
+
+.header__button-in,
+.header__button-up {
+  max-width: 110px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  padding: 13px 25px;
+}
+.header__button-up {
+  background: #ff9900;
+}
